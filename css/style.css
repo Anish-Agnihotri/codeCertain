@@ -1,0 +1,136 @@
+.topsection {
+  position: relative;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0575e6), to(#021b79));
+  background-image: -webkit-linear-gradient(top, #0575e6, #021b79);
+  background-image: -o-linear-gradient(top, #0575e6, #021b79);
+  background-image: linear-gradient(to bottom, #0575e6, #021b79);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 65%, 0 calc(100% - 2vw));
+  clip-path: polygon(0 0, 100% 0, 100% 65%, 0 calc(100% - 2vw)); }
+  .topsection .headerSection {
+    margin-top: -20px;
+    color: #fefefe;
+    width: 80vw;
+    padding-top: 10px;
+    height: 10vh;
+    margin-left: 10vw; }
+    .topsection .headerSection .logoSection {
+      width: 30%;
+      height: 100%;
+      float: left; }
+    .topsection .headerSection .menuSection {
+      width: 70%;
+      height: 100%;
+      float: left; }
+
+section {
+  margin-top: -2vw; }
+
+.signup {
+  width: 27.5vw;
+  height: 65vh;
+  border-radius: 5px;
+  background-color: #fefefe;
+  float: right;
+  -webkit-transform: translateY(-117.5%);
+  -ms-transform: translateY(-117.5%);
+  transform: translateY(-117.5%);
+  margin-right: 10vw;
+  -webkit-box-shadow: 5px 5px 1px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 1px 0px rgba(0, 0, 0, 0.3); }
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+  overflow: hidden; }
+  .menu li {
+    float: right; }
+    .menu li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none; }
+    .menu li a:hover {
+      text-decoration: underline; }
+
+.signinbutton {
+  border: 1px solid #fff;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 25px;
+  margin-top: 4px;
+  margin-left: 13px; }
+
+.signinbutton:hover {
+  background-color: #0051ff; }
+
+.signinbutton > a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important; }
+
+.signinbutton > a:hover {
+  text-decoration: none !important; }
+
+.leftMissionSection {
+  width: 65%;
+  margin-left: 5%;
+  margin-top: 5%; }
+
+.signature {
+  margin-top: 30px;
+  width: 25%; }
+
+.quotesection {
+  height: 180px;
+  width: 100vw;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0575e6), to(#021b79));
+  background-image: -webkit-linear-gradient(top, #0575e6, #021b79);
+  background-image: -o-linear-gradient(top, #0575e6, #021b79);
+  background-image: linear-gradient(to bottom, #0575e6, #021b79);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 50px;
+  text-align: center;
+  color: #f2f2f2;
+  padding-top: 30px;
+  padding-right: 5%;
+  padding-left: 5%; }
+
+.belowSignature {
+  margin-left: .5%; }
+
+.courseSection {
+  margin-top: 50px;
+  text-align: center; }
+
+.customcolor {
+  color: #b3b3b3; }
+
+.footer {
+  width: 100%;
+  background-color: #000000; }
+
+.footerLeft {
+  padding-left: 5%;
+  width: 30%;
+  float: left;
+  color: #fefefe;
+  background-color: inherit; }
+
+.footerRight {
+  width: 70%;
+  float: left;
+  background-color: inherit;
+  padding-right: 5%; }
+
+.getStartedSection {
+  text-align: center; }
+
+#menufooter {
+  -webkit-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  transform: translateY(-10%); }
