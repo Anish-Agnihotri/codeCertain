@@ -108,20 +108,16 @@ section {
   margin-top: 50px;
   text-align: center;
   color: #f2f2f2;
-  padding-top: 30px;
-  padding-left: 5vw;
-  padding-right: 5vw; }
+  padding-top: 30px; }
 
 .belowSignature {
   margin-left: .5%; }
 
 .courseSection {
-  margin-top: 50px;
+  padding-top: 50px;
   text-align: center;
-  padding-bottom: 45px; }
-
-.courseOutlines {
-  margin-top: 30px; }
+  padding-bottom: 45px;
+  background-color: #ffffff; }
 
 .customcolor {
   color: #b3b3b3; }
@@ -187,6 +183,10 @@ section {
   color: #fff;
   background-color: #0328b0;
   text-decoration: none; }
+
+.underlaySection {
+  width: 960px;
+  margin: 0 auto; }
 
 .card {
   width: 300px;
