@@ -9,21 +9,35 @@ html
   link(href='/css/style.css', rel='stylesheet')
   link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet')
  body 
-  .topsection
+  #signupscroll.topsection
     .headerSection
         .logoSection
             h2 codeCertain. 
         .menuSection
             ul.menu
                 li.signinbutton
-                    a(href='http://google.com') Sign In
+                    a(href='#') Sign In
                 li
-                    a(href='http://google.com') Courses
+                    a(href='#coursescroll') Courses
                 li
                     a(href='#missionscroll') Mission
                 li
-                    a(href='http://google.com') Home
+                    a(href='index.html') Home
   .signup
+    h2 Sign Up
+    form(action='#' method='post')
+        span.input.input--kaede
+            input#input-35.input__field.input__field--kaede(type="text")
+            label.input__label.input__label--kaede(for="input-35")
+                span.input__label-content.input__label-content--kaede First Name
+
+    //form.form-signin(action="/login", method="post")
+        input.input-block-level(type="text", name="username", placeholder="Email address")
+        input.input-block-level(type="text", name="username", placeholder="Email address")
+        input.input-block-level(type="password", name="password", placeholder="Password")
+        label.checkbox.
+            <input type="checkbox" value="remember-me" /> Remember me
+        button.btn.btn-large.btn-primary(type="submit") Sign in
   .headupText
     h1 Learning programming practically.
     p codeCertain is a simple platform aimed at helping users truly understand 
@@ -74,10 +88,10 @@ html
             li#footerbutton.signinbutton
                 a(href='http://google.com') Sign In
             li
-                a(href='http://google.com') Courses
+                a(href='#coursescroll') Courses
             li
                 a(href='#missionscroll') Mission
             li
-                a(href='http://google.com') Home
+                a(href='index.html') Home
 
 script(src='js/script.js')
