@@ -23,46 +23,31 @@ html
                     a(href='#missionscroll') Mission
                 li
                     a(href='index.html') Home
+                    //change
   .signup
-    //h2 Sign Up
-    //form(action='#' method='post')
-        span.input.input--kaede
-            input#input-35.input__field.input__field--kaede(type="text")
-            label.input__label.input__label--kaede(for="input-35")
-        span.input__label-content.input__label-content--kaede First Name
-        span.input.input--kaede
-            input#input-35.input__field.input__field--kaede(type="text")
-            label.input__label.input__label--kaede(for="input-35")
-                span.input__label-content.input__label-content--kaede First Name
-        span.input.input--kaede
-            input#input-35.input__field.input__field--kaede(type="text")
-            label.input__label.input__label--kaede(for="input-35")
-                span.input__label-content.input__label-content--kaede First Name
-        span.input.input--kaede
-            input#input-35.input__field.input__field--kaede(type="text")
-            label.input__label.input__label--kaede(for="input-35")
-                span.input__label-content.input__label-content--kaede First Name
-
-    //form.form-signin(action="/login", method="post")
-        input.input-block-level(type="text", name="username", placeholder="Email address")
-        input.input-block-level(type="text", name="username", placeholder="Email address")
-        input.input-block-level(type="password", name="password", placeholder="Password")
-        label.checkbox.
-            <input type="checkbox" value="remember-me" /> Remember me
-        button.btn.btn-large.btn-primary(type="submit") Sign in
+    h1 Sign Up
+    form(method='POST' action='/register')
+        label(for='name')
+        input#name.form-control(type='text', placeholder='Username' name='name')
+        label(for='email')
+        input#email.form-control(type='email', placeholder='Email Address' name='email')
+        label(for='pw')
+        input#pw.form-control(type='password' placeholder='Password' name='password')
+        label(for='pw2')
+        input#pw2.form-control(type='password' placeholder='Repeat Password' name='confirmPassword')
+        button.signupprimary(type='submit') Sign Up
   .headupText
-    h1 Learning programming practically.
-    p codeCertain is a simple platform aimed at helping users truly understand 
-    p the practical implications of their code. 
+    h1 Learn programming practically.
+    p codeCertain is a simple platform aimed at helping users truly understand the practical implicatoins of their code, and how they can apply it in real-life situations.
   section.mission
-    div#missionscroll.leftMissionSection
-        h1 Practical learning to fuel innovation.
-        h4 Working with conventional teaching practices causes an influx of theoretical learning, where students don't understand the real life applications of their work.
-        p At codeCertain our emphasis is on teaching the practical implications of programming to our users. Over the years, programming has become an essential skill to have. From scripting languages like JavaScript to data analysis with languages like Python & R, the impact that basic skills can have upon individuals is becoming more prominent.
-        p The largest problem with conventional learning methods is that they don't allow for the development of real world skills. It's like knowing how a bicycle works, but not actually ever having ridden one. We offer practical learning by allowing our users to build applications similar to the ones they use on a day-to-day basis, and help them build their portfolios by connecting them to volunteer organisations.
-        img.signature(src='https://i.imgur.com/oFFJPVL.png')
-        p.belowSignature Founder, codeCertain
-    .rightMissionSection
+    div#missionscroll.MissionSection
+        .leftsection
+            h1 Practical learning to fuel innovation.
+            h4 Working with conventional teaching practices causes an influx of theoretical learning, where students don't understand the real life applications of their work.
+            p At codeCertain our emphasis is on teaching the practical implications of programming to our users. Over the years, programming has become an essential skill to have. From scripting languages like JavaScript to data analysis with languages like Python & R, the impact that basic skills can have upon individuals is becoming more prominent.
+            p The largest problem with conventional learning methods is that they don't allow for the development of real world skills. It's like knowing how a bicycle works, but not actually ever having ridden one. We offer practical learning by allowing our users to build applications similar to the ones they use on a day-to-day basis, and help them build their portfolios by connecting them to volunteer organisations.
+            img.signature(src='https://i.imgur.com/oFFJPVL.png')
+            p.belowSignature Founder, codeCertain
   .quotesection
      h2 Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
      p.customcolor - Martin Golding
@@ -71,23 +56,23 @@ html
     p We offer courses ranging from beginner to more experienced levels. Always free. 
         .col-lg-10.col-lg-offset-1
             .card
-                img(src='https://cdn.css-tricks.com/wp-content/uploads/2016/06/eval-arbitrary-js-code-s.h..png')
+                img(src='https://i.imgur.com/KGA6TxB.png')
                 a#cardbutton.signupbutton(href='#signupscroll') Sign Up
                 h2 Web Development
                 h4 Front-end mastery course.
-                p.finalparagraph The front-end mastery course focuses around Web Development and using web technologies like HTML, CSS, and JS. Over the course of approximatley 50 hours of content, users learn the syntax of the languages and how they can apply it to real-life projects. Additional languages that are covered include preprocessors like Pug, Sass, and Babel.
+                p The front-end mastery course focuses around Web Development and using web technologies like HTML, CSS, and JS. Over the course of approximatley 50 hours of content, users learn the syntax of the languages and how they can apply it to real-life projects. Additional languages that are covered include preprocessors like Pug, Sass, and Babel.
             .card
-                img(src='https://cdn.css-tricks.com/wp-content/uploads/2016/06/eval-arbitrary-js-code-s.h..png')
+                img(src='https://i.imgur.com/wzrm6dv.png')
                 a#cardbutton.signupbutton(href='#signupscroll') Sign Up
-                h2 Web Development
-                h4 Front-end mastery course.
-                p.finalparagraph The front-end mastery course focuses around Web Development and using web technologies like HTML, CSS, and JS. Over the course of approximatley 50 hours of content, users learn the syntax of the languages and how they can apply it to real-life projects. Additional languages that are covered include preprocessors like Pug, Sass, and Babel.
+                h2 Command Line
+                h4 Enhance your CLI skills.
+                p The Command Line learning course focuses around the GNU/Linux command line (although it is very applicable to other command lines as well) and learning the way of BASH. It covers a plethora of technologies including, but not limited to, networking interface management, package managemenent, file system navigation, and environment setups.
             .card
-                img(src='https://cdn.css-tricks.com/wp-content/uploads/2016/06/eval-arbitrary-js-code-s.h..png')
+                img(src='https://i.imgur.com/e48wbyp.png')
                 a#cardbutton.signupbutton(href='#signupscroll') Sign Up
-                h2 Web Development
-                h4 Front-end mastery course.
-                p.finalparagraph The front-end mastery course focuses around Web Development and using web technologies like HTML, CSS, and JS. Over the course of approximatley 50 hours of content, users learn the syntax of the languages and how they can apply it to real-life projects. Additional languages that are covered include preprocessors like Pug, Sass, and Babel.
+                h2 Git
+                h4 Version control for your projects.
+                p Passing around copies of your source files on USB, or editing live on a server are from the days of the past. The Git course focuses around learning the Git Command Line & Graphical interface to interact with version control. Technologies such as Git, Github Desktop, and Git commands are discussed. Basic command line knowledge is also provided.
   .getStartedSection
     h1 Ready to get started?
     p Sign up today and start reaping the benefits of one of the largest open source programming education platforms. 
@@ -105,5 +90,7 @@ html
                 a(href='#missionscroll') Mission
             li
                 a(href='index.html') Home
+                //change
 
-script(src='js/script.js')
+script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+script(src='js/scroll.js')
