@@ -27,7 +27,7 @@ html
   section.mission
     div#missionscroll.leftMissionSection
         h1 Practical learning to fuel innovation.
-        h4 Working with conventional teaching practices causes an influx of theoretical learning, where students don't understand the real life applications of their learning.
+        h4 Working with conventional teaching practices causes an influx of theoretical learning, where students don't understand the real life applications of their work.
         p At codeCertain our emphasis is on teaching the practical implications of programming to our users. Over the years, programming has become an essential skill to have. From scripting languages like JavaScript to data analysis with languages like Python & R, the impact that basic skills can have upon individuals is becoming more prominent.
         p The largest problem with conventional learning methods is that they don't allow for the development of real world skills. It's like knowing how a bicycle works, but not actually ever having ridden one. We offer practical learning by allowing our users to build applications similar to the ones they use on a day-to-day basis, and help them build their portfolios by connecting them to volunteer organisations.
         img.signature(src='https://i.imgur.com/oFFJPVL.png')
@@ -36,18 +36,38 @@ html
   .quotesection
      h2 Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
      p.customcolor - Martin Golding
-  div#coursescroll.courseSection
+  #coursescroll.courseSection.clearfix
     h1 Learn with us. 
-    p We offer courses ranging from the beginner to more experienced levels. Always free. 
+    p We offer courses ranging from beginner to more experienced levels. Always free. 
+    .col-lg-10.col-lg-offset-1.courseOutlines 
+        .card
+            img(src='https://cdn.css-tricks.com/wp-content/uploads/2016/06/eval-arbitrary-js-code-s.h..png')
+            h2 Web Development
+            h4 Front-end mastery course.
+            p.finalparagraph The front-end mastery course focuses around Web Development and using web technologies like HTML, CSS, and JS. Over the course of approximatley 50 hours of content, users learn the syntax of the languages and how they can apply it to real-life projects. Additional languages that are covered include preprocessors like Pug, Sass, and Babel.
+            a#cardbutton.signupbutton(href='#signupscroll') Sign Up
+        .card
+            img(src='https://cdn.css-tricks.com/wp-content/uploads/2016/06/eval-arbitrary-js-code-s.h..png')
+            h2 Web Development
+            h4 Front-end mastery course.
+            p.finalparagraph The front-end mastery course focuses around Web Development and using web technologies like HTML, CSS, and JS. Over the course of approximatley 50 hours of content, users learn the syntax of the languages and how they can apply it to real-life projects. Additional languages that are covered include preprocessors like Pug, Sass, and Babel.
+            a#cardbutton.signupbutton(href='#signupscroll') Sign Up
+        .card
+            img(src='https://cdn.css-tricks.com/wp-content/uploads/2016/06/eval-arbitrary-js-code-s.h..png')
+            h2 Web Development
+            h4 Front-end mastery course.
+            p.finalparagraph The front-end mastery course focuses around Web Development and using web technologies like HTML, CSS, and JS. Over the course of approximatley 50 hours of content, users learn the syntax of the languages and how they can apply it to real-life projects. Additional languages that are covered include preprocessors like Pug, Sass, and Babel.
+            a#cardbutton.signupbutton(href='#signupscroll') Sign Up
   #startedscroll.getStartedSection
     h1 Ready to get started?
-    p Sign up today and start advancing your skills.
+    p Sign up today and start reaping the benefits of one of the largest open source programming education platforms. 
+    a.signupbutton(href='#signupscroll') Sign Up
   .footer
     .footerLeft
          h2 codeCertain.
     .footerRight
         ul#menufooter.menu
-            li.signinbutton
+            li#footerbutton.signinbutton
                 a(href='http://google.com') Sign In
             li
                 a(href='http://google.com') Courses
@@ -55,3 +75,5 @@ html
                 a(href='#missionscroll') Mission
             li
                 a(href='http://google.com') Home
+
+script(src='js/script.js')

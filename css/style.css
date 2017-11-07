@@ -1,3 +1,6 @@
+html {
+  overflow-x: hidden; }
+
 .topsection {
   position: relative;
   height: 100vh;
@@ -65,7 +68,7 @@ section {
   margin-left: 13px; }
 
 .signinbutton:hover {
-  background-color: #0051ff; }
+  background-color: #0580fa; }
 
 .signinbutton > a {
   padding-top: 10px !important;
@@ -75,13 +78,13 @@ section {
   text-decoration: none !important; }
 
 .leftMissionSection {
-  width: 65%;
+  width: 50%;
   margin-left: 5%;
   margin-top: 5%; }
 
 .signature {
   margin-top: 30px;
-  width: 25%; }
+  width: 200px; }
 
 .quotesection {
   height: 180px;
@@ -96,23 +99,25 @@ section {
   margin-top: 50px;
   text-align: center;
   color: #f2f2f2;
-  padding-top: 30px;
-  padding-right: 5%;
-  padding-left: 5%; }
+  padding-top: 30px; }
 
 .belowSignature {
   margin-left: .5%; }
 
 .courseSection {
   margin-top: 50px;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 45px; }
+
+.courseOutlines {
+  margin-top: 30px; }
 
 .customcolor {
   color: #b3b3b3; }
 
 .footer {
   width: 100%;
-  background-color: #000000; }
+  background-color: #1a1a1a; }
 
 .footerLeft {
   padding-left: 5%;
@@ -134,3 +139,73 @@ section {
   -webkit-transform: translateY(-10%);
   -ms-transform: translateY(-10%);
   transform: translateY(-10%); }
+
+#footerbutton:hover {
+  background-color: #262626; }
+
+.footerLeft > h2 {
+  -webkit-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  transform: translateY(-10%); }
+
+.getStartedSection {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0575e6), to(#021b79));
+  background-image: -webkit-linear-gradient(top, #0575e6, #021b79);
+  background-image: -o-linear-gradient(top, #0575e6, #021b79);
+  background-image: linear-gradient(to bottom, #0575e6, #021b79);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #f2f2f2;
+  padding-top: 10px;
+  padding-bottom: 35px; }
+  .getStartedSection p {
+    padding-bottom: 15px; }
+
+.signupbutton {
+  text-decoration: none;
+  color: #fefefe;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  padding-left: 25px; }
+
+.signupbutton:hover {
+  color: #fff;
+  background-color: #0328b0;
+  text-decoration: none; }
+
+.card {
+  width: 300px;
+  height: 465px;
+  text-align: left;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 45px 2px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 0px 45px 2px rgba(0, 0, 0, 0.35);
+  float: left;
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px; }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; }
+  .card h2, .card h4, .card p {
+    margin-left: 5px;
+    padding-right: 5px; }
+
+.finalparagraph {
+  margin-bottom: 25px; }
+
+#cardbutton {
+  background-color: #0328b0;
+  margin-left: 30%; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
