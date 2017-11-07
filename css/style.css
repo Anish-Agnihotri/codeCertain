@@ -27,7 +27,16 @@ html {
       float: left; }
 
 section {
-  margin-top: -2vw; }
+  margin-top: -17vw; }
+
+.headupText {
+  -webkit-transform: translate(20%, -275%);
+  -ms-transform: translate(20%, -275%);
+  transform: translate(20%, -275%);
+  color: #fff;
+  width: 45%; }
+  .headupText h1 {
+    font-size: 50px; }
 
 .signup {
   width: 27.5vw;
@@ -99,7 +108,9 @@ section {
   margin-top: 50px;
   text-align: center;
   color: #f2f2f2;
-  padding-top: 30px; }
+  padding-top: 30px;
+  padding-left: 5vw;
+  padding-right: 5vw; }
 
 .belowSignature {
   margin-left: .5%; }
@@ -209,3 +220,10 @@ section {
   content: "";
   display: table;
   clear: both; }
+
+.mainHeaderText {
+  -webkit-transform: translate(10%, -1075%);
+  -ms-transform: translate(10%, -1075%);
+  transform: translate(10%, -1075%);
+  font-size: 40px;
+  color: #ffffff; }
