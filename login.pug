@@ -1,0 +1,26 @@
+doctype html
+html
+ head
+  title codeCertain | Login
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='description', content='Know basic syntax? Want to take your theoretical knowledge to a whole new practical layer? codeCertain takes you there.')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  link(href='css/login.css', rel='stylesheet')
+ body
+    .leftsection
+      .padded
+        h1 Login
+        p Get started with one of the largest open source platforms to learn programming. It's completley free, self-paced, and interactive! 
+        p Don't have an account? 
+                a.goback(href='index.html') Sign Up
+        p Forgot your password? 
+                a.goback(href='#') Under Maintenance
+        form(method='POST' action='/register')
+            label(for='email')
+            input#email.form-control(type='email', placeholder='Email Address' name='email')
+            label(for='pw')
+            input#pw.form-control(type='password' placeholder='Password' name='password')
+            label(for='pw2')
+            button.signupprimary(type='submit') Login
+    .rightsection

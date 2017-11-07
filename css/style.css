@@ -121,14 +121,10 @@ section {
 
 .quotesection {
   height: 180px;
-  width: 100vw;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#0575e6), to(#021b79));
   background-image: -webkit-linear-gradient(top, #0575e6, #021b79);
   background-image: -o-linear-gradient(top, #0575e6, #021b79);
   background-image: linear-gradient(to bottom, #0575e6, #021b79);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
   margin-top: 50px;
   text-align: center;
   color: #f2f2f2;
@@ -381,9 +377,9 @@ section {
 
 @media screen and (max-width: 1024px) {
   .headupText {
-    -webkit-transform: translate(20%, -185%);
-    -ms-transform: translate(20%, -185%);
-    transform: translate(20%, -185%); } }
+    -webkit-transform: translate(20%, -250%);
+    -ms-transform: translate(20%, -250%);
+    transform: translate(20%, -250%); } }
 
 @media screen and (max-width: 769px) {
   .signup {
