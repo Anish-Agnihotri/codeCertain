@@ -118,6 +118,8 @@ section {
   text-align: center;
   padding-bottom: 45px;
   background-color: #ffffff; }
+  .courseSection p {
+    padding-bottom: 40px; }
 
 .customcolor {
   color: #b3b3b3; }
@@ -162,7 +164,6 @@ section {
   background-image: linear-gradient(to bottom, #0575e6, #021b79);
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
   color: #f2f2f2;
   padding-top: 10px;
   padding-bottom: 35px; }
@@ -214,7 +215,10 @@ section {
 
 #cardbutton {
   background-color: #0328b0;
-  margin-left: 30%; }
+  margin-left: 30%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
 
 .clearfix:after {
   content: "";
