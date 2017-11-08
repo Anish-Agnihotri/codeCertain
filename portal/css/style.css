@@ -1,0 +1,96 @@
+.header {
+  width: 100%;
+  background-color: #0328b0;
+  height: 60px; }
+
+.logoSection {
+  width: 80%;
+  float: left;
+  padding-left: 5%;
+  color: #fff; }
+  .logoSection h2 {
+    margin-top: 14px; }
+
+.menuSection {
+  width: 20%;
+  float: left; }
+
+.courses {
+  height: 60px;
+  width: 100px;
+  float: right;
+  text-align: center;
+  padding-top: 15px;
+  margin-right: 30px; }
+  .courses a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none; }
+  .courses a:hover {
+    color: #ffffff;
+    text-decoration: none; }
+  .courses a:visited {
+    color: #ffffff;
+    text-decoration: none; }
+
+.profile {
+  float: right; }
+  .profile img {
+    width: 45px;
+    border-radius: 50%;
+    float: right;
+    border: 3px solid #c0c0c0;
+    margin-top: 7.5px;
+    margin-right: 15px; }
+  .profile img:hover {
+    border: 3px solid #ffffff; }
+
+.footer {
+  width: 100%;
+  background-color: #1a1a1a;
+  position: fixed;
+  bottom: 0;
+  left: 0; }
+
+.footerLeft {
+  padding-left: 5%;
+  width: 30%;
+  float: left;
+  color: #fefefe;
+  background-color: inherit; }
+
+.footerRight {
+  width: 70%;
+  float: left;
+  background-color: inherit;
+  padding-right: 5%; }
+
+#menufooter {
+  -webkit-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  transform: translateY(-10%); }
+
+#footerbutton:hover {
+  background-color: #262626; }
+
+.footerLeft > h2 {
+  -webkit-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  transform: translateY(-10%); }
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+  overflow: hidden; }
+  .menu li {
+    float: right; }
+    .menu li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none; }
+    .menu li a:hover {
+      text-decoration: underline; }

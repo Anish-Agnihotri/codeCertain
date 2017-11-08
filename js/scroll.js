@@ -7,3 +7,6 @@ $('a[href^="#"]').on('click', function(event) {
         }, 1000);
     }
 });
+
+//wow
+new WOW().init();

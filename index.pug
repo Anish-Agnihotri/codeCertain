@@ -7,21 +7,22 @@ html
   meta(name='description', content='Know basic syntax? Want to take your theoretical knowledge to a whole new practical layer? codeCertain takes you there.')
   meta(name='viewport', content='width=device-width, initial-scale=1')
   link(href='css/style.css', rel='stylesheet')
+  link(href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css' rel='stylesheet')
   link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet')
  body 
   #signupscroll.topsection
     .headerSection
         .logoSection
-            h2 codeCertain. 
+            h2.wow.fadeIn codeCertain. 
         .menuSection
             ul.menu
-                li.signinbutton
+                li(data-wow-delay = '0.5s').signinbutton.wow.fadeIn
                     a(href='login.html') Login
-                li
+                li(data-wow-delay= '0.4s').wow.fadeIn
                     a(href='#coursescroll') Courses
-                li
+                li(data-wow-delay= '0.3s').wow.fadeIn
                     a(href='#missionscroll') Mission
-                li
+                li(data-wow-delay= '0.2s').wow.fadeIn
                     a(href='index.html') Home
                     //change
   .signup
@@ -42,39 +43,39 @@ html
   section.mission
     div#missionscroll.MissionSection
         .leftsection
-            h1 Practical learning to fuel innovation.
-            h4 Working with conventional teaching practices causes an influx of theoretical learning, where students don't understand the real life applications of their work.
-            p At codeCertain our emphasis is on teaching the practical implications of programming to our users. Over the years, programming has become an essential skill to have. From scripting languages like JavaScript to data analysis with languages like Python & R, the impact that basic skills can have upon individuals is becoming more prominent.
-            p The largest problem with conventional learning methods is that they don't allow for the development of real world skills. It's like knowing how a bicycle works, but not actually ever having ridden one. We offer practical learning by allowing our users to build applications similar to the ones they use on a day-to-day basis, and help them build their portfolios by connecting them to volunteer organisations.
-            img.signature(src='https://i.imgur.com/oFFJPVL.png')
-            p.belowSignature Founder, codeCertain
+            h1.wow.fadeIn Practical learning to fuel innovation.
+            h4.wow.fadeIn Working with conventional teaching practices causes an influx of theoretical learning, where students don't understand the real life applications of their work.
+            p(data-delay = '0.2s').wow.fadeIn At codeCertain our emphasis is on teaching the practical implications of programming to our users. Over the years, programming has become an essential skill to have. From scripting languages like JavaScript to data analysis with languages like Python & R, the impact that basic skills can have upon individuals is becoming more prominent.
+            p(data-delay = '0.2s').wow.fadeIn The largest problem with conventional learning methods is that they don't allow for the development of real world skills. It's like knowing how a bicycle works, but not actually ever having ridden one. We offer practical learning by allowing our users to build applications similar to the ones they use on a day-to-day basis, and help them build their portfolios by connecting them to volunteer organisations.
+            img(data-delay = '0.3s').wow.fadeIn.signature(src='https://i.imgur.com/oFFJPVL.png')
+            p(data-delay = '0.3s').wow.fadeIn.belowSignature Founder, codeCertain
   .quotesection
-     h2 Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
-     p.customcolor - Martin Golding
+     h2.wow.fadeIn Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
+     p.wow.fadeIn.customcolor - Martin Golding
   #coursescroll.courseSection.clearfix
     h1 Learn with us. 
     p We offer courses ranging from beginner to more experienced levels. Always free. 
         .col-lg-10.col-lg-offset-1
-            .card
+            div(data-wow-delay= '0.2s').wow.card.animated.fadeIn
                 img(src='https://i.imgur.com/KGA6TxB.png')
                 a#cardbutton.signupbutton(href='#signupscroll') Sign Up
                 h2 Web Development
                 h4 Front-end mastery course.
                 p The front-end mastery course focuses around Web Development and using web technologies like HTML, CSS, and JS. Over the course of approximatley 50 hours of content, users learn the syntax of the languages and how they can apply it to real-life projects. Additional languages that are covered include preprocessors like Pug, Sass, and Babel.
-            .card
+            div(data-wow-delay= '0.4s').wow.card.animated.fadeIn
                 img(src='https://i.imgur.com/wzrm6dv.png')
                 a#cardbutton.signupbutton(href='#signupscroll') Sign Up
                 h2 Command Line
                 h4 Enhance your CLI skills.
                 p The Command Line learning course focuses around the GNU/Linux command line (although it is very applicable to other command lines as well) and learning the way of BASH. It covers a plethora of technologies including, but not limited to, networking interface management, package managemenent, file system navigation, and environment setups.
-            .card
+            div(data-wow-delay= '0.6s').wow.card.animated.fadeIn
                 img(src='https://i.imgur.com/e48wbyp.png')
                 a#cardbutton.signupbutton(href='#signupscroll') Sign Up
                 h2 Git
                 h4 Version control for your projects.
                 p Passing around copies of your source files on USB, or editing live on a server are from the days of the past. The Git course focuses around learning the Git Command Line & Graphical interface to interact with version control. Technologies such as Git, Github Desktop, and Git commands are discussed. Basic command line knowledge is also provided.
   .getStartedSection
-    h1 Ready to get started?
+    h1.wow.pulse Ready to get started?
     p Sign up today and start reaping the benefits of one of the largest open source programming education platforms. 
     a.signupbutton(href='#signupscroll') Sign Up
   .footer
@@ -93,4 +94,5 @@ html
                 //change
 
 script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+script(src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js')
 script(src='js/scroll.js')
