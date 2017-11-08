@@ -10,7 +10,10 @@ codeCertain is developed following the Duolingo principles which tremendously fo
 The current front-end of the site is written in Pug/Sass but the compiled files will also be present. The back-end and JS is currently in development and will be added as development progresses. 
 
 ## Fancy screenshots of it working
-
+![Landing Page](http://i.imgur.com/i7eLh23.png "Optional title")
+Landing Page
+![Landing Page | Course Outlines section](http://i.imgur.com/qbqCSLf.png "Optional title")
+Landing Page course outlines section
 
 ## Next steps
 The current next steps for the platform are to develop the Ruby on Rails back-end and include integration to the front-end by using JS. The estimated completion of the project is sometime near Christmas 2017. 
