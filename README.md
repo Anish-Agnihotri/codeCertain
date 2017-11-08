@@ -11,7 +11,7 @@ The current front-end of the site is written in Pug/Sass but the compiled files 
 
 ## Fancy screenshots of it working
 ![Landing Page](http://i.imgur.com/i7eLh23.png "Optional title")
-Landing Page
+Landing Page (as of Nov. 8, morning)
 ![Landing Page | Course Outlines section](http://i.imgur.com/qbqCSLf.png "Optional title")
 Landing Page course outlines section
 
