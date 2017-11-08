@@ -54,6 +54,11 @@ section {
   -webkit-box-shadow: 5px 5px 1px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 5px 5px 1px 0px rgba(0, 0, 0, 0.3);
   text-align: center; }
+  .signup p {
+    line-height: 10px;
+    padding-bottom: 2px; }
+  .signup h1 {
+    line-height: 25px; }
 
 .signupprimary {
   padding-left: 25px;
@@ -63,7 +68,7 @@ section {
   background-color: #0328b0;
   border-radius: 25px;
   color: #ffffff;
-  margin-top: 7.5%; }
+  margin-top: 4.5%; }
 
 .signupprimary:hover {
   color: #fff;
@@ -397,7 +402,7 @@ section {
 
 @media screen and (min-width: 1600px) and (max-width: 1920px) {
   .signupprimary {
-    margin-top: 5%; } }
+    margin-top: 3.5%; } }
 
 @media screen and (min-width: 1921px) and (max-width: 2560px) {
   .headupText {
